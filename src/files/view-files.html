@@ -1,0 +1,19 @@
+<table class="table table-striped table-hover">
+	<thead>
+		<tr>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Size</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="#file of files">
+			<td>
+				<span *ngIf="file.file">File</span>
+				<span *ngIf="!file.file">Folder</span>
+			</td>
+			<td>{{file.name}}</td>
+			<td>{{file.size}}</td>
+		</tr>
+	</tbody>
+</table>
