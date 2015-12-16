@@ -40,14 +40,14 @@ System.register(["angular2/core", "../svcConsts/svcConsts"], function(exports_1)
                 AuthHelper.prototype.login = function () {
                     //redirect to get id_token
                     window.location.href = "https://login.microsoftonline.com/" + svcConsts_1.SvcConsts.TENTANT_ID +
-                        "/oauth2/authorize?response_type=id_token&client_id=" + svcConsts_1.SvcConsts.CLINET_ID +
+                        "/oauth2/authorize?response_type=id_token&client_id=" + svcConsts_1.SvcConsts.CLIENT_ID +
                         "&redirect_uri=" + encodeURIComponent(window.location.href) +
                         "&state=SomeState&nonce=SomeNonce";
                 };
                 AuthHelper.prototype.getAccessToken = function () {
                     //redirect to get access_token
                     window.location.href = "https://login.microsoftonline.com/" + svcConsts_1.SvcConsts.TENTANT_ID +
-                        "/oauth2/authorize?response_type=token&client_id=" + svcConsts_1.SvcConsts.CLINET_ID +
+                        "/oauth2/authorize?response_type=token&client_id=" + svcConsts_1.SvcConsts.CLIENT_ID +
                         "&resource=" + svcConsts_1.SvcConsts.GRAPH_RESOURCE +
                         "&redirect_uri=" + encodeURIComponent(window.location.href) +
                         "&prompt=none&state=SomeState&nonce=SomeNonce";
