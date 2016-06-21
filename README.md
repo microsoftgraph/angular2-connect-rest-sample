@@ -1,5 +1,5 @@
 # O365-Angular2-Microsoft-Graph-MyFiles
-This sample is a simple Angular2 web application for authenticating to Azure AD and calling into the Microsoft Graph. It it built with TypeScript and does not rely on any libraries for authentication or calling into the Microsoft Graph.
+This sample is a simple Angular2 web application for authenticating to Azure AD and calling into the Microsoft Graph. It is built with TypeScript and does not rely on any libraries for authentication or calling into the Microsoft Graph.
 
 ## Getting Started
 1. Clone repository.
