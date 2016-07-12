@@ -25,7 +25,7 @@ export class AuthHelper {
 	
 	login() {
 		//redirect to get id_token
-		window.location.href = "https://login.microsoftonline.com/" + SvcConsts.TENTANT_ID + 
+		window.location.href = "https://login.microsoftonline.com/" + SvcConsts.TENANT_ID + 
 			"/oauth2/authorize?response_type=id_token&client_id=" + SvcConsts.CLIENT_ID + 
 			"&redirect_uri=" + encodeURIComponent(window.location.href) + 
 			"&state=SomeState&nonce=SomeNonce";
@@ -33,7 +33,7 @@ export class AuthHelper {
 	
 	private getAccessToken() {
 		//redirect to get access_token
-		window.location.href = "https://login.microsoftonline.com/" + SvcConsts.TENTANT_ID + 
+		window.location.href = "https://login.microsoftonline.com/" + SvcConsts.TENANT_ID + 
 			"/oauth2/authorize?response_type=token&client_id=" + SvcConsts.CLIENT_ID + 
 			"&resource=" + SvcConsts.GRAPH_RESOURCE + 
 			"&redirect_uri=" + encodeURIComponent(window.location.href) + 
