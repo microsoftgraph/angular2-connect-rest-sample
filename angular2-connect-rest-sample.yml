@@ -1,0 +1,20 @@
+### YamlMime:Sample
+sample:
+- name: Microsoft Graph Connect Sample for UWP (Library)
+  path: ''
+  description: This sample shows how to connect your Windows 10 Universal app to Office 365 using the Microsoft Graph .NET client library to send an email.
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Azure AD
+  - Microsoft Graph
+  azureDeploy: ''
+  author: jamescro
+  platforms: []
+  languages:
+  - C#
+  extensions:
+    products:
+    - Office 365
+    scenarios: []
