@@ -1,4 +1,4 @@
-# O365-Angular2-Microsoft-Graph-MyFiles
+# [ARCHIVED] O365-Angular2-Microsoft-Graph-MyFiles
 
 >Note: This sample is currently deprecated because it uses obsolete framework libraries.
 
